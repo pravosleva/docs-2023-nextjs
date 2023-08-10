@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "start:pm2": "pm2 start npm --name \"docs-2023-nextjs-3000\" -- start"
   },
   "repository": {
     "type": "git",
